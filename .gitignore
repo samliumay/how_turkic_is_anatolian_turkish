@@ -1,0 +1,29 @@
+# LaTeX build files
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+*.nav
+*.snm
+*.xdv
+
+# OS / editor
+.DS_Store
+.obsidian/workspace*
+
+
+# Private: the author's own G25 row
+*.npy
+owner*.json
+
+# Python
+__pycache__/

@@ -1,0 +1,22 @@
+% Core-Anatolia fit as a stacked bar; numbers from ../../models/core-anatolia.md (Kartvelian share still to verify).
+% x: 100% = 80 mm.
+\begin{tikzpicture}[x=0.8mm, y=1mm, font=\scriptsize]
+  \def\byz{56.2}\def\tur{23.0}\def\kar{20.8}
+  \fill[tkblue!55] (0,0) rectangle (\byz,8);
+  \fill[tkorange!70] (\byz,0) rectangle ({\byz+\tur},8);
+  \fill[pattern=north east lines, pattern color=tkgreen] ({\byz+\tur},0) rectangle (100,8);
+  \draw[tkink] (0,0) rectangle (100,8);
+  \draw[tkink] (\byz,0) -- (\byz,8) ({\byz+\tur},0) -- ({\byz+\tur},8);
+  \node[align=center] at ({\byz/2},4) {Byzantine Anatolia\\56.2\%};
+  \node[align=center] at ({\byz+\tur/2},4) {Medieval\\Turkic 23.0\%};
+  \node[align=center, fill=white, inner sep=1pt] at ({\byz+\tur+\kar/2},4) {Kartvelian\\20.8\%};
+  % axis
+  \foreach \t in {0,25,50,75,100}
+    \draw[tkink] (\t,0) -- (\t,-1) node[below] {\t\%};
+  % per-cluster band of the Turkic share, drawn on its own scale under the bar
+  \draw[decorate, decoration={brace, mirror, amplitude=3pt}, tkverm, thick] (20,-9) -- (35,-9);
+  \node[anchor=west, text=tkink] at (37,-9.5) {Turkic share across core clusters: 20--35\%};
+  \draw[tkverm, thick] (23,-7.6) -- (23,-10.4);
+  \node[anchor=east, text=tkink] at (19,-9) {best fit 23\%};
+  \node[anchor=south east] at (100,8.5) {fit distance 1.779};
+\end{tikzpicture}

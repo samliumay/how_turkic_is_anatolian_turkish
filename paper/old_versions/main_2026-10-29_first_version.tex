@@ -1,0 +1,144 @@
+%% how_turkic_is_anatolian_turkish: short paper, first version 2026-10-29.
+%% Sources: ../README.md, ../models/core-anatolia.md, ../data/samples.md, ../bibliography.bib (keys verified against doi.org).
+%% Every number in the text comes from ../models/core-anatolia.md or ../data/samples.md.
+%% OPEN: the Kartvelian share (20.8%) was inferred as 100 - 56.2 - 23.0; replace it with the model output once checked
+%% (here, in figures/model.tex, in the blog post and in ../models/core-anatolia.md).
+\documentclass[conference,a4paper]{IEEEtran}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{microtype,booktabs,amsmath,array}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,calc,patterns,decorations.pathreplacing}
+\usepackage{cite}
+\usepackage[hidelinks]{hyperref}
+
+% Okabe--Ito palette (colour-blind safe); every figure also uses a pattern or label so it reads in greyscale.
+\definecolor{tkblue}{HTML}{0072B2}
+\definecolor{tkverm}{HTML}{D55E00}
+\definecolor{tkgreen}{HTML}{009E73}
+\definecolor{tkorange}{HTML}{E69F00}
+\definecolor{tkink}{HTML}{2B2B2B}
+
+\title{How Turkic Is Anatolian Turkish?\\ Modeling Modern Anatolian Turks Against Göktürk-Era Genomes}
+
+\author{\IEEEauthorblockN{Umay~\c{S}aml\i{}}
+\IEEEauthorblockA{\textit{Independent researcher}\\
+samliumay965@gmail.com}}
+
+\begin{document}
+\bstctlcite{IEEEexample:BSTcontrol}
+\maketitle
+
+\begin{abstract}
+How much of the modern Anatolian Turkish genome comes from the medieval Turkic populations of the steppe, and how much from the people who already lived in Anatolia when the Seljuks arrived? We fit the core of Anatolia (western, central and northern Anatolia, without the eastern Black Sea) as a mixture of three sources in Global-25 (G25) principal-component coordinates: Byzantine Anatolia (AD 500--1100), a pool of medieval Turkic individuals from the Central Steppe and the Tian Shan (AD 650--1200), and a Kartvelian source. The best fit is 56.2\% Byzantine Anatolia, 23.0\% medieval Turkic and 20.8\% Kartvelian, at a fit distance of 1.779. Fitted cluster by cluster, the Turkic share stays between roughly 20 and 35\%. We anchor the Turkic source at the Göktürk era because it is the first Turkic population that can be identified both by name and genetically; the Xiongnu and the European Huns remain unresolved. Published individuals from Çapalıbağ in southwestern Türkiye (1300--1650 CE) carry East Asian ancestry and a Northeast Asian paternal line, which confirms the migration in ancient DNA. The medieval Turkic pool is itself part West Eurasian, so the strictly East Eurasian fraction in Anatolia is smaller than the 23\% share. Distance fitting on 25 coordinates is a heuristic, and qpAdm on SNP data is the stricter follow-up.
+\end{abstract}
+
+\begin{IEEEkeywords}
+ancient DNA, admixture modeling, Global-25, Anatolia, Turkic peoples, Göktürk Khaganate, Seljuks
+\end{IEEEkeywords}
+
+\section{Introduction}
+Few questions start more arguments online in Türkiye than ``how Turkic are the Turks?'' Most answers are ideological. A narrower version of the question can be answered with genetics: what share of the modern Anatolian genome traces back to the medieval Turkic populations of the steppe, and what share to the population that was already in Anatolia when the Seljuks arrived after 1071?
+
+We turn that question into a small modeling exercise with published ancient DNA and G25-style principal-component coordinates. The study has three parts. Section~\ref{sec:anchor} explains why the Turkic source starts at the Göktürk era and not at an older ``proto-Turkic'' population. Sections~\ref{sec:data} and~\ref{sec:method} describe the sources, the controls and the fitting protocol. Section~\ref{sec:results} reports the core fit and the range across clusters, and Section~\ref{sec:limits} lists what the method cannot show. The target coordinates, the model definition and the sample tables are in the project repository.\footnote{\url{https://github.com/samliumay/how_turkic_is_anatolian_turkish}}
+
+\section{What ``Turkic'' Means in the Model}\label{sec:anchor}
+``Turkic'' has no single genetic origin, and the record gets less certain the further back it goes. The first Turkic-speaking peoples attested in written sources are the Oghur-speaking tribes on the Pontic steppe in the 5th century CE. The first people to call themselves \textit{Türk} are those of the Göktürk Khaganate, founded in 552. Before that, the names belong to confederations whose make-up is debated. The language or languages of the Xiongnu may have been Turkic, Mongolic, Yeniseian or a mixture, and the European Huns are just as unresolved. These confederations were political units, not genetic ones, and the affiliation of many of their member groups is still unclear. There is therefore no clean proto-Turkic population to fit against, and we do not try.
+
+The Göktürks are a usable anchor. They are the first identifiable Turkic polity, and the medieval Turkic individuals of the Central Steppe and the Tian Shan represent their population genetically~\cite{damgaard2018steppes,jeong2020}. These individuals were already mixed: they sit between ancient West Eurasian and East Eurasian populations. In this paper ``Turkic'' therefore means that Göktürk-era profile of AD 650--1200, not a pure steppe origin.
+
+The migration that the model measures followed the collapse of the Western Turkic Khaganate in the 7th century. The power vacuum in Central Asia pushed the Oghuz westward, and their descendants, the Seljuks, entered Anatolia after the battle of Manzikert in 1071. Fig.~\ref{fig:timeline} places the sources and the controls on this timeline.
+
+\begin{figure}[t]
+\centering
+\input{figures/timeline.tex}
+\caption{The model sources and controls on a timeline. Shaded bands are the date windows of the two ancient sources; the hatched bands are the two control sites from \cite{lazaridis2022}. Vertical marks are the attested events used to anchor the Turkic source.}
+\label{fig:timeline}
+\end{figure}
+
+\section{Data}\label{sec:data}
+\subsection{Sources}
+Table~\ref{tab:sources} lists the three sources. The medieval Turkic source pools ten published individuals from the Central Steppe and the Tian Shan~\cite{damgaard2018steppes,damgaard2018horse,jeong2020}. Byzantine Anatolia is the pre-Seljuk Anatolian baseline. The Kartvelian source stands for the Caucasus-side component (Georgian- and Laz-like ancestry).
+
+\begin{table}[t]
+\centering
+\caption{The three sources of the core-Anatolia model}
+\label{tab:sources}
+\small
+\begin{tabular}{@{}>{\raggedright}p{0.27\columnwidth}>{\raggedright}p{0.22\columnwidth}>{\raggedright\arraybackslash}p{0.40\columnwidth}@{}}
+\toprule
+Source & Period & Individuals or role \\
+\midrule
+Medieval Turkic & AD 650--1200 & DA222, DA230, SHK001, SHK002, CHK004, DA124, DA126, DA93, DA94, MA2195 \\
+Byzantine Anatolia & AD 500--1100 & Pre-Seljuk Anatolian baseline \\
+Kartvelian & --- & Caucasus-side component \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Controls}
+Two sites from the Southern Arc study~\cite{lazaridis2022} serve as controls.
+
+\textit{Çapalıbağ, southwestern Türkiye (1300--1650 CE).} The individuals from this cemetery (I20322\_d, I20323, I20324, I20325, I20326, I20570, I20571) postdate the establishment of the Seljuk dynasty. They carry substantial East Asian ancestry and sit at an intermediate genetic position between Byzantine Anatolians and their Central Asian ancestors. Their dates fall roughly 12 generations after the Seljuk expansion into Anatolia. The uniparental markers agree with this picture. The Y-chromosome lines are T-L131, J-PF5456 and N-A9416, and N-A9416 is a Northeast Asian paternal line. The mitochondrial lines include the East Eurasian A17 next to West Eurasian lines (W9, K1b1c, H13a1a1, HV14a, T2a1a, J2b2, H43, K1a).
+
+\textit{Gyumri, Black Fortress cemetery, Armenia (1665--1950 CE).} One post-medieval individual, I18247 (mtDNA K1a4b), has a genetic profile similar to present-day Azerbaijanis, unlike the Late Bronze Age individuals from the same site. We use I18247 as a control for the eastern, Caucasus-side profile. It also shows that Azerbaijani-like ancestry in the post-medieval Caucasus was already distinct from what had arrived in western Anatolia.
+
+\section{Method}\label{sec:method}
+Each population and individual is represented by its 25 scaled G25 coordinates. A target is modeled as a weighted mixture of the sources, and the weights are chosen to minimize the distance between the target and the mixture. The weights are non-negative and sum to one. The fit distance is the distance that remains at the optimum; smaller is better, and its value is only comparable between runs on the same coordinate set.
+
+The target is the core of Anatolia: western, central and northern Anatolia. We exclude two groups on purpose. Trabzon and the eastern Black Sea carry a much stronger Kartvelian and Pontic pull, and some eastern clusters carry additional East Asian input; averaging them into the core would pull the result in two directions at once. The Balkan Turks include local converts and Balkan admixture. Both groups are modeled as clusters of their own. After the single fit on the core average, we refit each core cluster separately to see how far the Turkic share moves.
+
+\section{Results}\label{sec:results}
+Table~\ref{tab:model} and Fig.~\ref{fig:model} give the best three-way fit for the core of Anatolia. Byzantine Anatolia contributes 56.2\%, medieval Turkic 23.0\% and Kartvelian 20.8\%, at a fit distance of 1.779, which counts as a good fit on this scale. When the core clusters are fitted one by one, the Turkic share stays inside a band of roughly 20 to 35\%. About a fifth to a third of the core profile is Göktürk-side. The rest is mostly the medieval Anatolian population that was already present, plus a Caucasus-side contribution.
+
+\begin{table}[t]
+\centering
+\caption{Best three-way fit for the core of Anatolia}
+\label{tab:model}
+\begin{tabular}{@{}lr@{}}
+\toprule
+Source & Share \\
+\midrule
+Byzantine Anatolia (AD 500--1100) & 56.2\% \\
+Medieval Turkic (AD 650--1200) & 23.0\% \\
+Kartvelian & 20.8\% \\
+\midrule
+Fit distance & 1.779 \\
+Turkic share across core clusters & 20--35\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[t]
+\centering
+\input{figures/model.tex}
+\caption{The core-Anatolia fit as a stacked bar (56.2\% Byzantine Anatolia, 23.0\% medieval Turkic, 20.8\% Kartvelian; fit distance 1.779). The bracket below shows the 20--35\% band that the Turkic share takes when each core cluster is fitted separately.}
+\label{fig:model}
+\end{figure}
+
+The fit also places modern Anatolian Turks relative to other populations, though only qualitatively. The post-medieval Gyumri individual shows that an Azerbaijani-like profile existed in the Caucasus centuries ago, separate from the Anatolian one. Turkmens lie further east, and Uzbeks, Kazakhs and Kyrgyz lie far toward the East Eurasian pole. A shared language family therefore does not come with a shared genetic profile. Oghuz speech reached Anatolia with a relatively small migration stream that was already mixed, and that stream blended into a local population many times its size. With most of its ancestry from Byzantine Anatolia and the Caucasus, the core of Anatolia plots next to the heirs of Byzantine Anatolia, the Greeks first of all, and far from any Central Asian reference. A per-nation table of G25 distances would turn this statement into a measurement; we leave it to the repository.
+
+\section{Limitations}\label{sec:limits}
+\textit{The method is a heuristic.} G25 coordinates compress a genome into 25 dimensions, and distance fitting on them matches positions in that space. The answer moves when the source set changes, which is why we report a band next to the single best fit. qpAdm on raw SNP data with explicit outgroups would be the stricter test.
+
+\textit{Two sources overlap.} Byzantine Anatolia and Kartvelian are geographic neighbors and genetically adjacent, so the optimizer can trade one for the other. This is part of why the shares form a band.
+
+\textit{The Turkic source is already mixed.} The medieval Turkic individuals are part West Eurasian and part East Eurasian. The model assigns the whole Göktürk-era profile to one source, so the strictly East Eurasian fraction that survived in Anatolia is smaller than 23\%.
+
+\textit{The cluster band is a range, not a table.} The 20--35\% band summarizes the per-cluster refits; the per-cluster fits themselves are not reported here.
+
+\textit{Ancestry is not identity.} A language can spread with a modest migration, and being Turkish is a cultural fact that genetics does not decide. The model measures streams of ancestry and nothing more.
+
+\section{Conclusion}
+There is no proto-Turkic shortcut: the Xiongnu and the Huns are unresolved confederations, and the first anchor that can be identified genetically is the Göktürk-era steppe, itself a mixture of West and East Eurasian ancestry. The migration is visible in ancient DNA, since the Çapalıbağ individuals carry East Asian ancestry about 12 generations after the Seljuk expansion, with a Northeast Asian paternal line to match. The core of Anatolia models as about 56\% Byzantine Anatolia, 23\% medieval Turkic and 21\% Kartvelian, with the Turkic share between 20 and 35\% across clusters. About a fifth to a third of the core Anatolian profile arrived with the Turkic migration, and the rest was already there.
+
+\section*{Data Availability}
+Target coordinates, the model definition and the sample tables are in the project repository (footnote on the first page). The ancient individuals are published in~\cite{lazaridis2022,damgaard2018steppes,damgaard2018horse,jeong2020}.
+
+\section*{Acknowledgment}
+An AI assistant (Claude, Anthropic) helped draft and edit the text of this paper. The author chose the model and the sources and is responsible for the content.
+
+\bibliographystyle{IEEEtran}
+\bibliography{bstcontrol,bibliography}
+
+\end{document}

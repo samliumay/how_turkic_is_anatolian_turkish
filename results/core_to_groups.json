@@ -1,0 +1,492 @@
+[
+[
+"tr-anatolia",
+"Turkish \u00b7 Anatolia (all provinces)",
+0.75
+],
+[
+"tr-central",
+"Turkish \u00b7 Central Anatolia",
+0.86
+],
+[
+"tr-south",
+"Turkish \u00b7 South & Southeast",
+1.46
+],
+[
+"tr-blacksea",
+"Turkish \u00b7 Black Sea",
+1.49
+],
+[
+"tr-west",
+"Turkish \u00b7 West Anatolia",
+1.69
+],
+[
+"azeri-caucasus",
+"Azerbaijani \u00b7 Caucasus",
+3.47
+],
+[
+"azeri-iran",
+"Azerbaijani \u00b7 Iran",
+3.64
+],
+[
+"tr-east",
+"Turkish \u00b7 East Anatolia",
+5.05
+],
+[
+"kurdish",
+"Kurdish",
+5.31
+],
+[
+"nogai",
+"Nogai & Karachay-Balkar",
+6.38
+],
+[
+"iranian",
+"Persian & Iranian",
+6.43
+],
+[
+"tr-balkan",
+"Turkish \u00b7 Balkans & Thrace",
+6.83
+],
+[
+"greek-anatolian",
+"Greek \u00b7 Anatolia & Pontus",
+7.03
+],
+[
+"armenian",
+"Armenian",
+7.22
+],
+[
+"ashkenazi",
+"Ashkenazi Jewish",
+7.33
+],
+[
+"assyrian",
+"Assyrian",
+7.5
+],
+[
+"tr-meskhetian",
+"Meskhetian Turkish",
+7.7
+],
+[
+"tr-cyprus",
+"Turkish Cypriot",
+7.71
+],
+[
+"n-caucasus",
+"North Caucasus",
+7.82
+],
+[
+"iraqi",
+"Iraqi Arab",
+7.83
+],
+[
+"greek",
+"Greek",
+8.06
+],
+[
+"levant",
+"Levantine",
+8.31
+],
+[
+"italian-south",
+"Italian \u00b7 Centre & South",
+8.63
+],
+[
+"gagauz",
+"Gagauz",
+9.45
+],
+[
+"georgian",
+"Georgian, Mingrelian & Svan",
+9.59
+],
+[
+"turkmen",
+"Turkmen",
+9.86
+],
+[
+"albanian",
+"Albanian",
+10.22
+],
+[
+"pomak",
+"Pomak",
+10.27
+],
+[
+"bulgarian",
+"Bulgarian",
+10.27
+],
+[
+"crimean-tatar",
+"Crimean Tatar",
+10.39
+],
+[
+"italian-north",
+"Italian \u00b7 North",
+10.96
+],
+[
+"romanian",
+"Romanian & Moldovan",
+11.5
+],
+[
+"tajik",
+"Tajik & Pamiri",
+11.82
+],
+[
+"south-slavic",
+"South Slavic",
+12.01
+],
+[
+"iberian",
+"Spanish & Portuguese",
+13.26
+],
+[
+"pashtun",
+"Pashtun",
+13.9
+],
+[
+"french",
+"French",
+14.08
+],
+[
+"brazilian",
+"Brazilian",
+14.34
+],
+[
+"hungarian",
+"Hungarian",
+14.44
+],
+[
+"caribbean",
+"Caribbean (Cuban, Puerto Rican, Dominican)",
+14.44
+],
+[
+"germanic",
+"German, Dutch & Austrian",
+14.55
+],
+[
+"sindhi-baloch",
+"Sindhi, Baloch & Brahui",
+14.91
+],
+[
+"arabian",
+"Arabian Peninsula",
+15.27
+],
+[
+"egyptian",
+"Egyptian & Copt",
+15.45
+],
+[
+"british-irish",
+"British & Irish",
+15.78
+],
+[
+"anglo-american",
+"Anglo-American & Canadian",
+15.81
+],
+[
+"basque",
+"Basque",
+16.1
+],
+[
+"sardinian",
+"Sardinian",
+16.44
+],
+[
+"west-slavic",
+"Polish, Czech & Slovak",
+16.5
+],
+[
+"scandinavian",
+"Scandinavian",
+16.5
+],
+[
+"east-slavic",
+"Russian, Ukrainian & Belarusian",
+16.71
+],
+[
+"volga-finnic",
+"Volga & Ural Finnic",
+16.81
+],
+[
+"volga-tatar",
+"Volga Tatar & Bashkir",
+17.67
+],
+[
+"kashmiri",
+"Kashmiri & Dard",
+18.07
+],
+[
+"finnic",
+"Finnic & Saami",
+18.21
+],
+[
+"punjabi",
+"Punjabi",
+18.46
+],
+[
+"chuvash",
+"Chuvash",
+18.58
+],
+[
+"baltic",
+"Baltic",
+19.6
+],
+[
+"maghreb",
+"North African (Maghreb)",
+20.32
+],
+[
+"uzbek",
+"Uzbek & Karakalpak",
+20.47
+],
+[
+"mestizo-latam",
+"Latin American Mestizo",
+21.16
+],
+[
+"n-india",
+"North Indian (Hindi belt)",
+24.26
+],
+[
+"uyghur",
+"Uyghur",
+25.52
+],
+[
+"w-india",
+"Gujarati & Marathi",
+25.75
+],
+[
+"siberian-tatar",
+"Siberian Tatar",
+25.79
+],
+[
+"hazara",
+"Hazara",
+26.53
+],
+[
+"bengali",
+"Bengali",
+28.73
+],
+[
+"s-india",
+"South Indian",
+29.57
+],
+[
+"kazakh",
+"Kazakh",
+32.2
+],
+[
+"kyrgyz",
+"Kyrgyz",
+35.68
+],
+[
+"sudanese",
+"Sudanese & Nubian",
+37.58
+],
+[
+"south-siberian",
+"Altai, Tuva & Khakas",
+38.63
+],
+[
+"adivasi",
+"Central Indian tribal (Adivasi)",
+39.71
+],
+[
+"horn",
+"Horn of Africa",
+39.88
+],
+[
+"native-n",
+"Native North American",
+45.58
+],
+[
+"mongol",
+"Mongol & Buryat",
+45.9
+],
+[
+"himalayan",
+"Himalayan & Tibetan",
+47.47
+],
+[
+"island-sea",
+"Island Southeast Asia",
+48.09
+],
+[
+"yakut",
+"Yakut & Dolgan",
+48.35
+],
+[
+"se-asia",
+"Mainland Southeast Asia",
+51.65
+],
+[
+"manchu-tungusic",
+"Manchu & Tungusic",
+52.54
+],
+[
+"hmong-mien",
+"Hmong-Mien (Miao, Yao)",
+52.71
+],
+[
+"japanese",
+"Japanese & Ryukyuan",
+54.33
+],
+[
+"han-north",
+"Han Chinese \u00b7 North",
+54.46
+],
+[
+"korean",
+"Korean",
+55.15
+],
+[
+"han-south",
+"Han Chinese \u00b7 South",
+55.54
+],
+[
+"tai-kadai",
+"Tai-Kadai (Zhuang, Dai, Thai)",
+55.73
+],
+[
+"andean",
+"Andean",
+61.08
+],
+[
+"mesoamerican",
+"Mesoamerican",
+61.23
+],
+[
+"african-american",
+"African American & Afro-Caribbean",
+63.29
+],
+[
+"nilotic",
+"Nilotic",
+63.92
+],
+[
+"amazonian",
+"Amazonian & Lowland South American",
+64.56
+],
+[
+"e-africa",
+"East African Bantu",
+64.71
+],
+[
+"oceanian",
+"Papuan & Oceanian",
+66.64
+],
+[
+"w-africa",
+"West African",
+70.46
+],
+[
+"s-africa",
+"Southern African Bantu",
+73.29
+],
+[
+"khoisan",
+"Khoe-San",
+75.23
+],
+[
+"forager-central",
+"Central African forager",
+80.31
+]
+]

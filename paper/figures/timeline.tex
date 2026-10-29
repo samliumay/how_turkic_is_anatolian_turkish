@@ -1,0 +1,26 @@
+% Timeline of sources, controls and anchor events (AD 400--2000). x: 1 cm = 200 years, origin at AD 400.
+\begin{tikzpicture}[x=0.0405mm, y=1mm, font=\scriptsize]
+  \def\yr#1{(#1-400)}
+  % axis
+  \draw[tkink, -{Stealth[length=2mm]}] (0,0) -- (1650,0);
+  \foreach \t in {400,800,1200,1600,2000}
+    \draw[tkink] ({\t-400},0) -- ({\t-400},-1.2) node[below] {\t};
+  % anchor events
+  \foreach \t/\lab/\h in {552/Göktürk Khaganate (552)/21, 1071/Manzikert (1071)/17} {
+    \draw[tkink, densely dashed] ({\t-400},0) -- ({\t-400},\h);
+    \node[anchor=south west, inner sep=1pt] at ({\t-400},\h) {\lab};
+  }
+  % source windows (shaded), drawn over the event lines
+
+  \fill[tkblue!35] ({500-400},3) rectangle ({1100-400},7);
+  \node[anchor=west, fill=tkblue!35, inner sep=1pt] at ({500-400},5) {Byzantine Anatolia};
+  \fill[tkorange!45] ({650-400},9) rectangle ({1200-400},13);
+  \node[anchor=west, fill=tkorange!45, inner sep=1pt] at ({650-400},11) {Medieval Turkic};
+  % control sites (hatched)
+  \fill[pattern=north east lines, pattern color=tkverm] ({1300-400},3) rectangle ({1650-400},7);
+  \draw[tkverm] ({1300-400},3) rectangle ({1650-400},7);
+  \node[anchor=south] at ({1475-400},7) {Çapalıbağ};
+  \fill[pattern=north west lines, pattern color=tkgreen] ({1665-400},9) rectangle ({1950-400},13);
+  \draw[tkgreen] ({1665-400},9) rectangle ({1950-400},13);
+  \node[anchor=south] at ({1807-400},13) {Gyumri};
+\end{tikzpicture}

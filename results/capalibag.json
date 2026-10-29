@@ -1,0 +1,101 @@
+[
+ {
+  "cluster": "Core Anatolia",
+  "byz": 24.8,
+  "cap": 63.6,
+  "kar": 11.6,
+  "fit": 1.68,
+  "otm_byz": 44.5,
+  "otm": 38.0,
+  "otm_kar": 17.5,
+  "otm_fit": 1.86
+ },
+ {
+  "cluster": "West Anatolia",
+  "byz": 18.9,
+  "cap": 77.2,
+  "kar": 3.9,
+  "fit": 1.54,
+  "otm_byz": 42.8,
+  "otm": 46.2,
+  "otm_kar": 11.0,
+  "otm_fit": 1.76
+ },
+ {
+  "cluster": "Central Anatolia",
+  "byz": 27.7,
+  "cap": 56.9,
+  "kar": 15.3,
+  "fit": 1.86,
+  "otm_byz": 45.4,
+  "otm": 34.0,
+  "otm_kar": 20.6,
+  "otm_fit": 2.02
+ },
+ {
+  "cluster": "North Anatolia (western Black Sea)",
+  "byz": 26.0,
+  "cap": 60.5,
+  "kar": 13.4,
+  "fit": 1.72,
+  "otm_byz": 44.8,
+  "otm": 36.2,
+  "otm_kar": 19.0,
+  "otm_fit": 1.88
+ },
+ {
+  "cluster": "South (Adana, Mersin, Gaziantep)",
+  "byz": 13.8,
+  "cap": 72.4,
+  "kar": 13.8,
+  "fit": 1.89,
+  "otm_byz": 36.3,
+  "otm": 43.3,
+  "otm_kar": 20.4,
+  "otm_fit": 2.06
+ },
+ {
+  "cluster": "Trabzon, Rize, Artvin",
+  "byz": 44.5,
+  "cap": 0.0,
+  "kar": 55.5,
+  "fit": 1.78,
+  "otm_byz": 44.5,
+  "otm": 0.1,
+  "otm_kar": 55.4,
+  "otm_fit": 1.78
+ },
+ {
+  "cluster": "Erzurum and the east",
+  "byz": 37.6,
+  "cap": 17.2,
+  "kar": 45.3,
+  "fit": 3.25,
+  "otm_byz": 43.0,
+  "otm": 10.0,
+  "otm_kar": 47.0,
+  "otm_fit": 3.28
+ },
+ {
+  "cluster": "Balkan Turks",
+  "byz": 50.1,
+  "cap": 49.9,
+  "kar": 0.0,
+  "fit": 6.8,
+  "otm_byz": 69.4,
+  "otm": 30.6,
+  "otm_kar": 0.0,
+  "otm_fit": 6.84
+ },
+ {
+  "cluster": "Azerbaijani",
+  "byz": 7.8,
+  "cap": 50.9,
+  "kar": 41.3,
+  "fit": 2.93,
+  "otm_byz": 23.7,
+  "otm": 30.1,
+  "otm_kar": 46.2,
+  "otm_fit": 3.13
+ }
+]

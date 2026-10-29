@@ -1,0 +1,892 @@
+[
+{
+"label": "Adana",
+"n": 28,
+"tur": 27.7,
+"tur_fit": 2.15,
+"cap": 75.8,
+"cap_fit": 1.74,
+"otm": 45.4,
+"otm_fit": 1.94
+},
+{
+"label": "Afyonkarahisar",
+"n": 18,
+"tur": 24.7,
+"tur_fit": 2.44,
+"cap": 67.8,
+"cap_fit": 2.08,
+"otm": 40.5,
+"otm_fit": 2.26
+},
+{
+"label": "Afyonkarahisar Northeast",
+"n": 28,
+"tur": 25.6,
+"tur_fit": 2.39,
+"cap": 70.4,
+"cap_fit": 2.02,
+"otm": 42.1,
+"otm_fit": 2.19
+},
+{
+"label": "Aksaray",
+"n": 23,
+"tur": 21.2,
+"tur_fit": 2.4,
+"cap": 58.4,
+"cap_fit": 2.07,
+"otm": 34.8,
+"otm_fit": 2.23
+},
+{
+"label": "Amasya",
+"n": 12,
+"tur": 18.0,
+"tur_fit": 2.59,
+"cap": 49.9,
+"cap_fit": 2.33,
+"otm": 29.7,
+"otm_fit": 2.44
+},
+{
+"label": "Ankara",
+"n": 27,
+"tur": 26.1,
+"tur_fit": 2.24,
+"cap": 71.5,
+"cap_fit": 1.83,
+"otm": 42.8,
+"otm_fit": 2.01
+},
+{
+"label": "Ankara Manav",
+"n": 1,
+"tur": 31.9,
+"tur_fit": 2.7,
+"cap": 86.1,
+"cap_fit": 2.31,
+"otm": 52.4,
+"otm_fit": 2.44
+},
+{
+"label": "Ankara Sereflikochisar",
+"n": 11,
+"tur": 22.5,
+"tur_fit": 2.97,
+"cap": 62.2,
+"cap_fit": 2.62,
+"otm": 37.1,
+"otm_fit": 2.77
+},
+{
+"label": "Antalya",
+"n": 12,
+"tur": 33.3,
+"tur_fit": 1.42,
+"cap": 90.0,
+"cap_fit": 1.02,
+"otm": 54.2,
+"otm_fit": 1.49
+},
+{
+"label": "Antalya Yoruk",
+"n": 2,
+"tur": 32.1,
+"tur_fit": 2.09,
+"cap": 87.5,
+"cap_fit": 1.78,
+"otm": 52.6,
+"otm_fit": 1.85
+},
+{
+"label": "Ardahan",
+"n": 3,
+"tur": 15.2,
+"tur_fit": 3.15,
+"cap": 42.6,
+"cap_fit": 2.9,
+"otm": 25.3,
+"otm_fit": 3.0
+},
+{
+"label": "Artvin",
+"n": 7,
+"tur": 1.6,
+"tur_fit": 3.76,
+"cap": 6.0,
+"cap_fit": 3.73,
+"otm": 3.3,
+"otm_fit": 3.74
+},
+{
+"label": "Aydin",
+"n": 31,
+"tur": 28.5,
+"tur_fit": 1.78,
+"cap": 78.0,
+"cap_fit": 1.33,
+"otm": 46.7,
+"otm_fit": 1.56
+},
+{
+"label": "Balikesir",
+"n": 17,
+"tur": 30.7,
+"tur_fit": 2.23,
+"cap": 83.7,
+"cap_fit": 1.75,
+"otm": 50.2,
+"otm_fit": 2.08
+},
+{
+"label": "Balikesir Cepni",
+"n": 2,
+"tur": 35.2,
+"tur_fit": 2.84,
+"cap": 92.9,
+"cap_fit": 3.11,
+"otm": 57.4,
+"otm_fit": 2.87
+},
+{
+"label": "Balkans (Anatolian Turk-Mixed Profile)",
+"n": 11,
+"tur": 20.7,
+"tur_fit": 6.05,
+"cap": 54.5,
+"cap_fit": 5.96,
+"otm": 33.4,
+"otm_fit": 6.0
+},
+{
+"label": "Bartin",
+"n": 8,
+"tur": 22.8,
+"tur_fit": 2.06,
+"cap": 62.7,
+"cap_fit": 1.7,
+"otm": 37.5,
+"otm_fit": 1.86
+},
+{
+"label": "Bayburt",
+"n": 14,
+"tur": 2.0,
+"tur_fit": 3.16,
+"cap": 6.7,
+"cap_fit": 3.13,
+"otm": 3.8,
+"otm_fit": 3.14
+},
+{
+"label": "Bilecik",
+"n": 4,
+"tur": 27.5,
+"tur_fit": 2.68,
+"cap": 75.1,
+"cap_fit": 2.25,
+"otm": 45.0,
+"otm_fit": 2.54
+},
+{
+"label": "Bolu",
+"n": 14,
+"tur": 37.2,
+"tur_fit": 2.19,
+"cap": 100.0,
+"cap_fit": 1.8,
+"otm": 60.9,
+"otm_fit": 1.95
+},
+{
+"label": "Burdur",
+"n": 16,
+"tur": 28.1,
+"tur_fit": 2.12,
+"cap": 77.1,
+"cap_fit": 1.66,
+"otm": 46.1,
+"otm_fit": 1.9
+},
+{
+"label": "Bursa",
+"n": 6,
+"tur": 28.3,
+"tur_fit": 2.76,
+"cap": 76.8,
+"cap_fit": 2.37,
+"otm": 46.4,
+"otm_fit": 2.54
+},
+{
+"label": "Canakkale Biga Peninsula",
+"n": 3,
+"tur": 29.7,
+"tur_fit": 2.33,
+"cap": 80.6,
+"cap_fit": 2.01,
+"otm": 48.6,
+"otm_fit": 2.16
+},
+{
+"label": "Cankiri",
+"n": 12,
+"tur": 20.1,
+"tur_fit": 2.43,
+"cap": 55.6,
+"cap_fit": 2.09,
+"otm": 33.1,
+"otm_fit": 2.27
+},
+{
+"label": "Central Macedonia",
+"n": 3,
+"tur": 14.6,
+"tur_fit": 6.23,
+"cap": 38.4,
+"cap_fit": 6.2,
+"otm": 23.7,
+"otm_fit": 6.2
+},
+{
+"label": "Corum",
+"n": 19,
+"tur": 19.2,
+"tur_fit": 2.83,
+"cap": 53.3,
+"cap_fit": 2.49,
+"otm": 31.6,
+"otm_fit": 2.67
+},
+{
+"label": "Cyprus",
+"n": 33,
+"tur": 2.6,
+"tur_fit": 2.09,
+"cap": 7.8,
+"cap_fit": 2.05,
+"otm": 4.6,
+"otm_fit": 2.06
+},
+{
+"label": "Denizli",
+"n": 9,
+"tur": 31.3,
+"tur_fit": 1.31,
+"cap": 85.0,
+"cap_fit": 1.15,
+"otm": 51.1,
+"otm_fit": 1.18
+},
+{
+"label": "Duzce",
+"n": 4,
+"tur": 32.1,
+"tur_fit": 2.03,
+"cap": 87.5,
+"cap_fit": 1.73,
+"otm": 52.2,
+"otm_fit": 2.14
+},
+{
+"label": "East Thrace Gelibolu",
+"n": 3,
+"tur": 21.1,
+"tur_fit": 4.4,
+"cap": 55.6,
+"cap_fit": 4.27,
+"otm": 34.0,
+"otm_fit": 4.35
+},
+{
+"label": "Eastern Macedonia",
+"n": 3,
+"tur": 16.7,
+"tur_fit": 6.67,
+"cap": 43.7,
+"cap_fit": 6.66,
+"otm": 26.8,
+"otm_fit": 6.68
+},
+{
+"label": "Elazig",
+"n": 4,
+"tur": 10.9,
+"tur_fit": 3.2,
+"cap": 31.0,
+"cap_fit": 3.01,
+"otm": 18.3,
+"otm_fit": 3.09
+},
+{
+"label": "Erzincan",
+"n": 16,
+"tur": 9.0,
+"tur_fit": 3.34,
+"cap": 25.8,
+"cap_fit": 3.22,
+"otm": 15.3,
+"otm_fit": 3.26
+},
+{
+"label": "Erzurum",
+"n": 12,
+"tur": 6.4,
+"tur_fit": 2.45,
+"cap": 18.4,
+"cap_fit": 2.35,
+"otm": 10.7,
+"otm_fit": 2.41
+},
+{
+"label": "Erzurum Central",
+"n": 11,
+"tur": 7.0,
+"tur_fit": 4.05,
+"cap": 20.5,
+"cap_fit": 3.95,
+"otm": 11.9,
+"otm_fit": 3.99
+},
+{
+"label": "Erzurum North",
+"n": 15,
+"tur": 1.5,
+"tur_fit": 3.95,
+"cap": 5.7,
+"cap_fit": 3.93,
+"otm": 3.1,
+"otm_fit": 3.93
+},
+{
+"label": "Eskisehir",
+"n": 9,
+"tur": 27.8,
+"tur_fit": 2.45,
+"cap": 76.5,
+"cap_fit": 1.98,
+"otm": 45.7,
+"otm_fit": 2.22
+},
+{
+"label": "Gaziantep",
+"n": 19,
+"tur": 21.8,
+"tur_fit": 2.8,
+"cap": 60.3,
+"cap_fit": 2.45,
+"otm": 36.0,
+"otm_fit": 2.63
+},
+{
+"label": "Giresun",
+"n": 18,
+"tur": 32.1,
+"tur_fit": 1.1,
+"cap": 86.4,
+"cap_fit": 1.43,
+"otm": 52.4,
+"otm_fit": 1.12
+},
+{
+"label": "Giresun North",
+"n": 44,
+"tur": 31.3,
+"tur_fit": 2.4,
+"cap": 85.5,
+"cap_fit": 2.16,
+"otm": 51.4,
+"otm_fit": 2.18
+},
+{
+"label": "Giresun South",
+"n": 10,
+"tur": 15.0,
+"tur_fit": 2.93,
+"cap": 41.7,
+"cap_fit": 2.72,
+"otm": 24.8,
+"otm_fit": 2.79
+},
+{
+"label": "Gumushane",
+"n": 3,
+"tur": 0.5,
+"tur_fit": 1.61,
+"cap": 1.4,
+"cap_fit": 1.61,
+"otm": 0.9,
+"otm_fit": 1.61
+},
+{
+"label": "Hatay",
+"n": 13,
+"tur": 27.2,
+"tur_fit": 2.53,
+"cap": 74.7,
+"cap_fit": 2.12,
+"otm": 44.7,
+"otm_fit": 2.29
+},
+{
+"label": "Igdir",
+"n": 5,
+"tur": 17.4,
+"tur_fit": 3.92,
+"cap": 48.7,
+"cap_fit": 3.66,
+"otm": 28.8,
+"otm_fit": 3.79
+},
+{
+"label": "Isparta",
+"n": 34,
+"tur": 19.2,
+"tur_fit": 2.4,
+"cap": 53.1,
+"cap_fit": 2.08,
+"otm": 31.7,
+"otm_fit": 2.2
+},
+{
+"label": "Istanbul (Anatolian Turk Profile)",
+"n": 13,
+"tur": 21.1,
+"tur_fit": 1.65,
+"cap": 57.6,
+"cap_fit": 1.5,
+"otm": 34.5,
+"otm_fit": 1.59
+},
+{
+"label": "Istanbul (Anatolian Turk-Mixed Balkan Turk Profile)",
+"n": 4,
+"tur": 22.5,
+"tur_fit": 5.75,
+"cap": 59.7,
+"cap_fit": 5.6,
+"otm": 36.5,
+"otm_fit": 5.69
+},
+{
+"label": "Izmir",
+"n": 9,
+"tur": 27.6,
+"tur_fit": 1.98,
+"cap": 75.4,
+"cap_fit": 1.41,
+"otm": 45.2,
+"otm_fit": 1.82
+},
+{
+"label": "Izmir Cepni",
+"n": 2,
+"tur": 29.9,
+"tur_fit": 2.91,
+"cap": 82.0,
+"cap_fit": 2.47,
+"otm": 49.3,
+"otm_fit": 2.5
+},
+{
+"label": "Kahramanmaras",
+"n": 25,
+"tur": 21.2,
+"tur_fit": 2.59,
+"cap": 58.5,
+"cap_fit": 2.28,
+"otm": 35.0,
+"otm_fit": 2.4
+},
+{
+"label": "Karabuk",
+"n": 8,
+"tur": 24.4,
+"tur_fit": 2.32,
+"cap": 67.2,
+"cap_fit": 1.94,
+"otm": 40.1,
+"otm_fit": 2.15
+},
+{
+"label": "Karaman",
+"n": 20,
+"tur": 19.4,
+"tur_fit": 2.17,
+"cap": 53.5,
+"cap_fit": 1.84,
+"otm": 31.9,
+"otm_fit": 2.02
+},
+{
+"label": "Kars",
+"n": 4,
+"tur": 10.6,
+"tur_fit": 3.84,
+"cap": 30.4,
+"cap_fit": 3.66,
+"otm": 17.8,
+"otm_fit": 3.75
+},
+{
+"label": "Kastamonu",
+"n": 24,
+"tur": 16.7,
+"tur_fit": 2.39,
+"cap": 46.2,
+"cap_fit": 2.1,
+"otm": 27.6,
+"otm_fit": 2.22
+},
+{
+"label": "Kayseri",
+"n": 35,
+"tur": 17.3,
+"tur_fit": 1.7,
+"cap": 47.4,
+"cap_fit": 1.46,
+"otm": 28.3,
+"otm_fit": 1.6
+},
+{
+"label": "Kirikkale",
+"n": 6,
+"tur": 24.9,
+"tur_fit": 2.4,
+"cap": 68.5,
+"cap_fit": 2.03,
+"otm": 40.9,
+"otm_fit": 2.21
+},
+{
+"label": "Kirsehir",
+"n": 20,
+"tur": 24.9,
+"tur_fit": 2.57,
+"cap": 68.4,
+"cap_fit": 2.19,
+"otm": 40.9,
+"otm_fit": 2.37
+},
+{
+"label": "Kocaeli",
+"n": 5,
+"tur": 27.3,
+"tur_fit": 3.11,
+"cap": 75.2,
+"cap_fit": 2.69,
+"otm": 44.9,
+"otm_fit": 2.89
+},
+{
+"label": "Konya",
+"n": 14,
+"tur": 22.3,
+"tur_fit": 1.45,
+"cap": 61.1,
+"cap_fit": 1.11,
+"otm": 36.5,
+"otm_fit": 1.33
+},
+{
+"label": "Kutahya",
+"n": 17,
+"tur": 28.0,
+"tur_fit": 2.3,
+"cap": 76.7,
+"cap_fit": 1.93,
+"otm": 46.0,
+"otm_fit": 2.04
+},
+{
+"label": "Malatya",
+"n": 19,
+"tur": 12.1,
+"tur_fit": 3.3,
+"cap": 34.1,
+"cap_fit": 3.12,
+"otm": 20.3,
+"otm_fit": 3.19
+},
+{
+"label": "Manisa",
+"n": 9,
+"tur": 27.0,
+"tur_fit": 2.74,
+"cap": 74.4,
+"cap_fit": 2.29,
+"otm": 44.4,
+"otm_fit": 2.54
+},
+{
+"label": "Manisa Cepni",
+"n": 1,
+"tur": 30.4,
+"tur_fit": 2.61,
+"cap": 83.2,
+"cap_fit": 2.29,
+"otm": 50.0,
+"otm_fit": 2.35
+},
+{
+"label": "Manisa Yoruk",
+"n": 9,
+"tur": 35.4,
+"tur_fit": 1.82,
+"cap": 96.3,
+"cap_fit": 1.52,
+"otm": 57.9,
+"otm_fit": 1.56
+},
+{
+"label": "Mersin",
+"n": 19,
+"tur": 33.7,
+"tur_fit": 1.96,
+"cap": 91.8,
+"cap_fit": 1.66,
+"otm": 55.1,
+"otm_fit": 1.8
+},
+{
+"label": "Mersin Yoruk",
+"n": 3,
+"tur": 36.3,
+"tur_fit": 1.73,
+"cap": 98.2,
+"cap_fit": 1.71,
+"otm": 59.4,
+"otm_fit": 1.49
+},
+{
+"label": "Meskhetian Ardahan",
+"n": 5,
+"tur": 2.2,
+"tur_fit": 1.18,
+"cap": 6.2,
+"cap_fit": 1.16,
+"otm": 3.8,
+"otm_fit": 1.16
+},
+{
+"label": "Meskhetian Georgia",
+"n": 4,
+"tur": 1.9,
+"tur_fit": 1.89,
+"cap": 5.1,
+"cap_fit": 1.89,
+"otm": 3.1,
+"otm_fit": 1.88
+},
+{
+"label": "Mugla",
+"n": 12,
+"tur": 37.4,
+"tur_fit": 1.76,
+"cap": 100.0,
+"cap_fit": 1.46,
+"otm": 61.2,
+"otm_fit": 1.46
+},
+{
+"label": "Nevsehir",
+"n": 32,
+"tur": 16.6,
+"tur_fit": 2.39,
+"cap": 46.2,
+"cap_fit": 2.11,
+"otm": 27.5,
+"otm_fit": 2.22
+},
+{
+"label": "Nigde",
+"n": 10,
+"tur": 17.5,
+"tur_fit": 2.51,
+"cap": 48.5,
+"cap_fit": 2.25,
+"otm": 29.0,
+"otm_fit": 2.35
+},
+{
+"label": "North Macedonia",
+"n": 15,
+"tur": 13.9,
+"tur_fit": 8.18,
+"cap": 36.9,
+"cap_fit": 8.13,
+"otm": 22.5,
+"otm_fit": 8.15
+},
+{
+"label": "North Thrace",
+"n": 52,
+"tur": 23.3,
+"tur_fit": 6.53,
+"cap": 61.5,
+"cap_fit": 6.42,
+"otm": 37.7,
+"otm_fit": 6.47
+},
+{
+"label": "Northern Bulgaria",
+"n": 17,
+"tur": 22.8,
+"tur_fit": 7.17,
+"cap": 60.3,
+"cap_fit": 7.05,
+"otm": 36.9,
+"otm_fit": 7.11
+},
+{
+"label": "Ordu",
+"n": 30,
+"tur": 23.1,
+"tur_fit": 2.15,
+"cap": 63.2,
+"cap_fit": 1.89,
+"otm": 37.9,
+"otm_fit": 1.96
+},
+{
+"label": "Rize",
+"n": 5,
+"tur": 0.0,
+"tur_fit": 1.98,
+"cap": 0.0,
+"cap_fit": 1.98,
+"otm": 0.0,
+"otm_fit": 1.98
+},
+{
+"label": "Samsun",
+"n": 16,
+"tur": 19.9,
+"tur_fit": 1.99,
+"cap": 54.8,
+"cap_fit": 1.67,
+"otm": 32.8,
+"otm_fit": 1.83
+},
+{
+"label": "Sinop",
+"n": 11,
+"tur": 19.1,
+"tur_fit": 2.1,
+"cap": 52.6,
+"cap_fit": 1.78,
+"otm": 31.4,
+"otm_fit": 1.91
+},
+{
+"label": "Sinop Northwest",
+"n": 10,
+"tur": 9.0,
+"tur_fit": 2.25,
+"cap": 25.3,
+"cap_fit": 2.12,
+"otm": 15.1,
+"otm_fit": 2.15
+},
+{
+"label": "Sivas",
+"n": 63,
+"tur": 17.2,
+"tur_fit": 2.66,
+"cap": 47.7,
+"cap_fit": 2.42,
+"otm": 28.5,
+"otm_fit": 2.5
+},
+{
+"label": "Thessaly",
+"n": 3,
+"tur": 15.7,
+"tur_fit": 6.37,
+"cap": 41.2,
+"cap_fit": 6.34,
+"otm": 25.1,
+"otm_fit": 6.39
+},
+{
+"label": "Tokat",
+"n": 21,
+"tur": 20.1,
+"tur_fit": 2.3,
+"cap": 55.4,
+"cap_fit": 2.03,
+"otm": 33.1,
+"otm_fit": 2.14
+},
+{
+"label": "Trabzon",
+"n": 34,
+"tur": 0.0,
+"tur_fit": 1.77,
+"cap": 0.0,
+"cap_fit": 1.77,
+"otm": 0.0,
+"otm_fit": 1.77
+},
+{
+"label": "Tunceli",
+"n": 3,
+"tur": 9.0,
+"tur_fit": 3.82,
+"cap": 26.4,
+"cap_fit": 3.65,
+"otm": 15.3,
+"otm_fit": 3.75
+},
+{
+"label": "Usak",
+"n": 21,
+"tur": 27.1,
+"tur_fit": 2.24,
+"cap": 74.3,
+"cap_fit": 1.83,
+"otm": 44.5,
+"otm_fit": 1.97
+},
+{
+"label": "West Thrace",
+"n": 3,
+"tur": 28.3,
+"tur_fit": 5.13,
+"cap": 72.9,
+"cap_fit": 5.27,
+"otm": 45.4,
+"otm_fit": 5.12
+},
+{
+"label": "Western Macedonia",
+"n": 5,
+"tur": 12.0,
+"tur_fit": 7.71,
+"cap": 31.6,
+"cap_fit": 7.69,
+"otm": 19.1,
+"otm_fit": 7.73
+},
+{
+"label": "Yozgat",
+"n": 30,
+"tur": 20.2,
+"tur_fit": 2.4,
+"cap": 55.9,
+"cap_fit": 2.07,
+"otm": 33.3,
+"otm_fit": 2.25
+},
+{
+"label": "Zonguldak",
+"n": 17,
+"tur": 28.0,
+"tur_fit": 2.31,
+"cap": 76.9,
+"cap_fit": 1.87,
+"otm": 45.9,
+"otm_fit": 2.14
+}
+]

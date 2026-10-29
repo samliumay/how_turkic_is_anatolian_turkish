@@ -1,0 +1,116 @@
+[
+{
+"label": "Azerbaijani · Caucasus",
+"kind": "oghuz",
+"d": 3.47,
+"n": 134
+},
+{
+"label": "Azerbaijani · Iran",
+"kind": "oghuz",
+"d": 3.64,
+"n": 61
+},
+{
+"label": "Kurds · west & Alevi (Malatya, Kayseri, Çorum, Maraş)",
+"kind": "wa",
+"d": 4.69,
+"n": 96
+},
+{
+"label": "Turkish · Erzurum & the east",
+"kind": "tr",
+"d": 5.05,
+"n": 95
+},
+{
+"label": "Kurds · southeast, Iraq & Iran",
+"kind": "wa",
+"d": 5.64,
+"n": 103
+},
+{
+"label": "Nogai & Karachay-Balkar",
+"kind": "kipchak",
+"d": 6.38,
+"n": 123
+},
+{
+"label": "Persian & Lur",
+"kind": "wa",
+"d": 6.5,
+"n": 129
+},
+{
+"label": "Greek · Anatolia & Pontus",
+"kind": "eu",
+"d": 7.03,
+"n": 85
+},
+{
+"label": "North Caucasus",
+"kind": "wa",
+"d": 7.18,
+"n": 251
+},
+{
+"label": "Armenian",
+"kind": "wa",
+"d": 7.22,
+"n": 242
+},
+{
+"label": "Greek · mainland & islands",
+"kind": "eu",
+"d": 8.32,
+"n": 847
+},
+{
+"label": "Italian · Centre & South",
+"kind": "eu",
+"d": 8.63,
+"n": 412
+},
+{
+"label": "Georgian & Laz",
+"kind": "wa",
+"d": 9.59,
+"n": 554
+},
+{
+"label": "Turkmen",
+"kind": "oghuz",
+"d": 9.86,
+"n": 93
+},
+{
+"label": "Bulgarian",
+"kind": "eu",
+"d": 10.27,
+"n": 56
+},
+{
+"label": "Crimean Tatar",
+"kind": "kipchak",
+"d": 10.39,
+"n": 26
+},
+{
+"label": "Uzbek",
+"kind": "turkic",
+"d": 20.47,
+"n": 69
+},
+{
+"label": "Kazakh",
+"kind": "turkic",
+"d": 32.2,
+"n": 289
+},
+{
+"label": "Kyrgyz",
+"kind": "turkic",
+"d": 35.68,
+"n": 121
+}
+]

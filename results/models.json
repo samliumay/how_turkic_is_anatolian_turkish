@@ -1,0 +1,191 @@
+{
+ "core: original 3-way": {
+  "weights": [
+   [
+    "Byzantine Anatolia",
+    54.9
+   ],
+   [
+    "Medieval Turkic (Kazakhstan, Kyrgyzstan)",
+    23.1
+   ],
+   [
+    "Kartvelian (Georgian, Laz)",
+    21.9
+   ]
+  ],
+  "fit": 2.063
+ },
+ "core: 3-way, Mongolia Turkic": {
+  "weights": [
+   [
+    "Byzantine Anatolia",
+    59.3
+   ],
+   [
+    "Kartvelian (Georgian, Laz)",
+    29.4
+   ],
+   [
+    "Göktürk-era Mongolia",
+    11.2
+   ]
+  ],
+  "fit": 3.336
+ },
+ "core: 2-way": {
+  "weights": [
+   [
+    "Byzantine Anatolia",
+    75.1
+   ],
+   [
+    "Medieval Turkic (Kazakhstan, Kyrgyzstan)",
+    24.9
+   ]
+  ],
+  "fit": 2.977
+ },
+ "core: pre-Turkic split": {
+  "weights": [
+   [
+    "Caucasus LBA (Armenia)",
+    32.7
+   ],
+   [
+    "Medieval Turkic (Kazakhstan, Kyrgyzstan)",
+    20.1
+   ],
+   [
+    "Levant IA",
+    19.4
+   ],
+   [
+    "Mycenaean Greek",
+    16.9
+   ],
+   [
+    "Iran IA",
+    8.9
+   ],
+   [
+    "Celtic (La Tène, Galatian proxy)",
+    2.1
+   ],
+   [
+    "Anatolia BA",
+    0.0
+   ]
+  ],
+  "fit": 1.043
+ },
+ "owner: original 3-way": {
+  "weights": [
+   [
+    "Byzantine Anatolia",
+    56.6
+   ],
+   [
+    "Medieval Turkic (Kazakhstan, Kyrgyzstan)",
+    23.9
+   ],
+   [
+    "Kartvelian (Georgian, Laz)",
+    19.5
+   ]
+  ],
+  "fit": 2.178
+ },
+ "owner: 3-way, Mongolia Turkic": {
+  "weights": [
+   [
+    "Byzantine Anatolia",
+    61.1
+   ],
+   [
+    "Kartvelian (Georgian, Laz)",
+    27.3
+   ],
+   [
+    "Göktürk-era Mongolia",
+    11.6
+   ]
+  ],
+  "fit": 3.54
+ },
+ "owner: 2-way": {
+  "weights": [
+   [
+    "Byzantine Anatolia",
+    74.6
+   ],
+   [
+    "Medieval Turkic (Kazakhstan, Kyrgyzstan)",
+    25.4
+   ]
+  ],
+  "fit": 2.897
+ },
+ "owner: pre-Turkic split": {
+  "weights": [
+   [
+    "Iran IA",
+    29.9
+   ],
+   [
+    "Mycenaean Greek",
+    28.4
+   ],
+   [
+    "Medieval Turkic (Kazakhstan, Kyrgyzstan)",
+    20.9
+   ],
+   [
+    "Caucasus LBA (Armenia)",
+    17.2
+   ],
+   [
+    "Anatolia BA",
+    3.6
+   ],
+   [
+    "Celtic (La Tène, Galatian proxy)",
+    0.0
+   ],
+   [
+    "Levant IA",
+    0.0
+   ]
+  ],
+  "fit": 1.563
+ },
+ "Byzantine Anatolia: split": {
+  "weights": [
+   [
+    "Mycenaean Greek",
+    41.0
+   ],
+   [
+    "Anatolia BA",
+    21.8
+   ],
+   [
+    "Levant IA",
+    18.8
+   ],
+   [
+    "Caucasus LBA (Armenia)",
+    18.4
+   ],
+   [
+    "Celtic (La Tène, Galatian proxy)",
+    0.0
+   ],
+   [
+    "Iran IA",
+    0.0
+   ]
+  ],
+  "fit": 0.611
+ }
+}
