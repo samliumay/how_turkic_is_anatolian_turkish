@@ -4,8 +4,8 @@ A small ancient-DNA modeling exercise: how much of the modern Anatolian Turkish 
 the medieval Turkic populations of the steppe, and how much to the people who were already living in
 Anatolia when the Seljuks arrived?
 
-This repository holds the model definitions, the analysis scripts and their results behind the write-up
-on [umaysamli.com](https://umaysamli.com/blog/how-turkic-is-anatolian-turkish).
+This repository holds the model definitions, the analysis scripts, their results and a short IEEE-format
+paper behind the write-up on [umaysamli.com](https://umaysamli.com/blog/how-turkic-is-anatolian-turkish).
 
 ## Results in short
 
@@ -21,32 +21,40 @@ on [umaysamli.com](https://umaysamli.com/blog/how-turkic-is-anatolian-turkish).
   (7.2) and the North Caucasus (7.2) come next; Uzbeks (20.5), Kazakhs (32.2) and Kyrgyz (35.7) are far
   away. Distances are G25 × 100.
 
+More in [docs/results.md](docs/results.md).
+
+## Quick start
+
+```bash
+export G25_DIR=/path/to/g25/      # folder with modern.csv and ancient.csv; keep the trailing slash
+W=$(mktemp -d)
+uv run --with numpy --with scipy python analysis/01_core_and_groups.py "$W"
+uv run --with numpy --with scipy python analysis/02_models.py "$W"
+cd paper && make pdf              # paper/main.pdf
+```
+
+> [!WARNING]
+> `01_core_and_groups.py` also reads the group definitions from a hard-coded path into the Hanami DNA
+> backend, which is not public. See [docs/reproducing.md](docs/reproducing.md) for the full pipeline and
+> what it needs. The author's own coordinates are not in this repository.
+
 ## Layout
 
 | Path | What it is |
 | --- | --- |
 | `models/core-anatolia.md` | The medieval model, all fits and the pre-Turkic split |
 | `data/samples.md` | The ancient samples behind each source, with site, dating and uniparental markers |
-| `analysis/` | Python scripts that produce every number and figure (see `analysis/README.md`) |
+| `analysis/` | Python scripts that produce every number, table and figure |
 | `results/` | Their JSON output |
-| `paper/` | Short IEEE-format paper (to be updated to these results) |
+| `paper/` | Short IEEE-format paper (`paper/main.pdf`) |
+| `bibliography.bib` | The verified bibliography the paper uses |
 
-## Reproduce
+## Documentation
 
-See `analysis/README.md`. The scripts need the published Global-25 `modern.csv` and `ancient.csv`
-(set `G25_DIR`), numpy and scipy. The author's own coordinates are not in this repository.
-
-## Sources
-
-- Lazaridis et al. (2022),
-  [The genetic history of the Southern Arc: A bridge between West Asia and Europe](https://doi.org/10.1126/science.abm4247),
-  *Science*: the Çapalıbağ (post-Seljuk southwestern Türkiye) and Gyumri (Black Fortress) samples.
-- Damgaard et al. (2018),
-  [137 ancient human genomes from across the Eurasian steppes](https://doi.org/10.1038/s41586-018-0094-2),
-  *Nature*.
-- Damgaard et al. (2018),
-  [The first horse herders and the impact of early Bronze Age steppe expansions into Asia](https://doi.org/10.1126/science.aar7711),
-  *Science*.
-- Jeong et al. (2020),
-  [A Dynamic 6,000-Year Genetic History of Eurasia's Eastern Steppe](https://doi.org/10.1016/j.cell.2020.10.015),
-  *Cell*.
+| Doc | What it answers |
+| --- | --- |
+| [docs/README.md](docs/README.md) | Index of the docs |
+| [docs/methodology.md](docs/methodology.md) | How the populations are averaged, compared and fitted |
+| [docs/data.md](docs/data.md) | Which data the analysis uses, and where it comes from |
+| [docs/reproducing.md](docs/reproducing.md) | The commands, in order, from G25 files to the paper PDF |
+| [docs/results.md](docs/results.md) | Where each result lives, and what the paper adds |
